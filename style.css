@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    background-color: #ecf0f198;
+}
+
+.main-div {
+    margin-inline: auto;
+    margin-block:30px;
+    width:35%;
+}
+
+header .heading {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: Oswald;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding:5px 10px;
+    background: linear-gradient(to right, #9face6, #74ebd5);
+
+}
+
+.form-control label {
+    display: block;
+    font-family: oswald;
+    text-transform: capitalize;
+    margin-block: 5px;
+}
+
+.form-control input {
+    padding: 10px 10px;
+    width: 100%;
+    text-transform: capitalize;
+    border: 1px solid #6e6d6d;
+    outline: none;
+    margin-top: 5px;
+
+}
+
+.form-control .right {
+    position: relative;
+    top: -33px;
+    left: 500px;
+    display: inline;
+    visibility: hidden;
+}
+
+.form-control .wrong {
+    position: relative;
+    top: -33px;
+    left: 480px;
+    display: inline;
+    visibility: hidden;
+}
+
+.form-control span {
+    display: inline-block;
+    text-transform: capitalize;
+    margin-block: 5px;
+    color: #e64040;
+    font-size: 1.1rem;
+    visibility: hidden;
+
+}
+
+.form-btn input {
+    padding: 8px 0;
+    width: 100%;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 20px 0 10px;
+    border: none;
+    font-size: 1.1rem;
+    background: linear-gradient(to right, #9face6, #74ebd5);
+}
+
+.form-btn input:hover {
+    background: linear-gradient(to right, #74ebd5, #9face6);
+}
+
+.form-control.success input {
+    border: 2px solid green;
+}
+
+.form-control.success .right {
+    color: green;
+    visibility: visible;
+}
+
+.form-control.fail input {
+    border: 2px solid #e64040;
+
+}
+
+.form-control.fail .wrong {
+    color: #e64040;
+    visibility: visible;
+}
+
+.form-control.fail .error-msg {
+    visibility: visible;
+}
