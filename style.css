@@ -14,7 +14,7 @@ body{
 
 .main-div {
     margin-inline: auto;
-    margin-block:30px;
+    margin-top:30px;
     width:35%;
 }
 
@@ -58,7 +58,7 @@ header .heading {
 .form-control .wrong {
     position: relative;
     top: -33px;
-    left: 480px;
+    left: 450px;
     display: inline;
     visibility: hidden;
 }

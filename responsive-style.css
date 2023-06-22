@@ -1,0 +1,91 @@
+
+
+
+@media screen and (max-width:1400px){
+    .form-control input{
+        width:100%
+    }
+    .main-div{
+        width:40%;
+    }
+}
+
+
+@media screen and (max-width:1235px){
+    .main-div{
+        width:45%;
+    }
+}
+
+
+@media screen and (max-width:1100px){
+    .main-div{
+        width:50%;
+    }
+}
+
+
+@media screen and (max-width:995px){
+    .main-div{
+        width:55%;
+    }
+}
+
+
+@media screen and (max-width:895px){
+    .main-div{
+        width:60%;
+    }
+}
+
+@media screen and (max-width:830px){
+    .main-div{
+        width:65%;
+    }
+}
+
+
+@media screen and (max-width:755px){
+    .main-div{
+        width:70%;
+    }
+}
+
+
+@media screen and (max-width:700px){
+    .main-div{
+        width:75%;
+    }
+}
+
+
+@media screen and (max-width:650px){
+    .main-div{
+        width:80%;
+    }
+}
+
+
+@media screen and (max-width:630px){
+    .main-div{
+        width:85%;
+    }
+}
+
+
+@media screen and (max-width:575px){
+    .main-div{
+        width:90%;
+    }
+}
+
+
+@media screen and (max-width:550px){
+    .main-div{
+        width:95%;
+    }
+
+    .form-control .wrong{
+        left:420px;
+    }
+}
