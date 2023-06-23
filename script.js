@@ -48,6 +48,16 @@ let finalResult = () => {
 
 }
 
+let isEmail=(emailVal)=>{
+    let symbolIndex=emailVal.indexOf("@");
+    if(symbolIndex<=1) return true;
+    let dotIndex=emailVal.lastIndexOf(".");
+    if(dotIndex===(emailVal.length-1)) return true;
+    if(dotIndex<=(symbolIndex+2)) return true;
+    if(dotIndex===(emailVal.length-1)) return true;
+    return false;
+}
+
 let valiDate = () => {
     const usernameVal = username.value.trim();
     const emailVal = email.value.trim();
@@ -68,7 +78,9 @@ let valiDate = () => {
     // check email...
     if (emailVal.length == "") {
         setError(email, "**please ente the email");
-    } else {
+    }else if(isEmail(emailVal)){
+        setError(email,"**please enter the valid email");
+    }else {
         setSuccess(email);
     }
 
